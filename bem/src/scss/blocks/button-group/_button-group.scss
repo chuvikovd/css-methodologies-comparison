@@ -1,0 +1,35 @@
+.button-group {
+    &__horizontal {
+        .button-group__button {
+            &:not(:only-child) {
+                &:not(:last-child) {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+    
+                &:not(:first-child) {
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                }
+            }
+        }
+    }
+
+    &__vertical {
+        .button-group__button {
+            display: block;
+            
+            &:not(:only-child) {
+                &:not(:last-child) {
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
+                }
+    
+                &:not(:first-child) {
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                }
+            }
+        }
+    }
+}

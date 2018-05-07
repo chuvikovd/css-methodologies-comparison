@@ -1,5 +1,79 @@
+* {
+  box-sizing: border-box; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
+
+.button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  padding: 10px 15px 12px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  transition: all 0.2s;
+  text-decoration: none; }
+  .button:hover {
+    text-decoration: none; }
+  .button__default {
+    background-color: #757575;
+    border-color: #757575; }
+    .button__default:hover {
+      background-color: #5c5c5c;
+      border-color: #5c5c5c; }
+  .button__primary {
+    background-color: #1565C0;
+    border-color: #1565C0; }
+    .button__primary:hover {
+      background-color: #104d92;
+      border-color: #104d92; }
+  .button__secondary {
+    background-color: #6A1B9A;
+    border-color: #6A1B9A; }
+    .button__secondary:hover {
+      background-color: #4c136f;
+      border-color: #4c136f; }
+  .button__warning {
+    background-color: #FFAB00;
+    border-color: #FFAB00; }
+    .button__warning:hover {
+      background-color: #cc8900;
+      border-color: #cc8900; }
+  .button__error {
+    background-color: #FF3D00;
+    border-color: #FF3D00; }
+    .button__error:hover {
+      background-color: #cc3100;
+      border-color: #cc3100; }
+  .button__success {
+    background-color: #00C853;
+    border-color: #00C853; }
+    .button__success:hover {
+      background-color: #00953e;
+      border-color: #00953e; }
+  .button__small {
+    padding: 8px 10px 10px; }
+  .button__large {
+    padding: 12px 20px 14px; }
+
+.button-group__horizontal .button-group__button:not(:only-child):not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.button-group__horizontal .button-group__button:not(:only-child):not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.button-group__vertical .button-group__button {
+  display: block; }
+  .button-group__vertical .button-group__button:not(:only-child):not(:last-child) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
+  .button-group__vertical .button-group__button:not(:only-child):not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }

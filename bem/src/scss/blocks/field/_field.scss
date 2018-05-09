@@ -1,0 +1,44 @@
+.field {
+  &__label {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: $text-color;
+    font-weight: 500;
+  }
+
+  &__input {
+    display: block;
+    width: 100%;
+  }
+
+  &__help {
+    margin: 5px 0 0 0;
+    font-size: 0.7rem;
+    color: $text-color-light;
+  }
+
+  &__success {
+    .field {
+      &__input {
+        border-color: $success;
+      }
+
+      &__help {
+        color: $success;
+      }
+    }
+  }
+
+  &__error {
+    .field {
+      &__input {
+        border-color: $error;
+      }
+
+      &__help {
+        color: $error;
+      }
+    }
+  }
+}

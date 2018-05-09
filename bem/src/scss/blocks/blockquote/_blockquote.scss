@@ -1,0 +1,25 @@
+.blockquote {
+  &__text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: $text-color;
+    margin: 0;
+  }
+
+  &__author {
+    font-size: 0.8rem;
+    color: $text-color-light;
+
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+
+  &__center {
+    text-align: center;
+  }
+
+  &__right {
+    text-align: right;
+  }
+}

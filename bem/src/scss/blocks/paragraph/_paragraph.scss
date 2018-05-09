@@ -1,0 +1,21 @@
+$paragraph-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.paragraph {
+  color: $text-color;
+  font-size: 1rem;
+  line-height: 1.42;
+  margin: 0 0 0.5rem;
+
+  @each $color, $value in $paragraph-colors {
+    &__#{$color} {
+        color: $value;
+    }
+}
+}

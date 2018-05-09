@@ -1,0 +1,69 @@
+$card-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.card {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+
+  &__header {
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid $border-color;
+    padding: 10px 15px;
+  }
+
+  .card__heading {
+    margin: 0;
+  }
+
+  &__content {
+    padding: 10px 15px;
+
+    *:last-child {
+      margin: 0;
+    }
+  }
+
+  @each $color, $value in $button-colors {
+    &__#{$color} {
+      .card {
+        border-color: darken($value, 10%);
+
+        &__header {
+          background-color: rgba(lighten($value, 30%), 0.8);
+          border-bottom-color: darken($value, 10%)
+        }
+
+        &__content {
+          background-color: rgba(lighten($value, 30%), 0.8);
+        }
+      }
+    }
+  }
+
+  &__outlined {
+    &.card {
+      @each $color, $value in $button-colors {
+        &__#{$color} {
+          border-color: $value;
+
+          .card {
+            &__header {
+              background-color: transparent;
+              border-bottom-color: $value;
+            }
+
+            &__content {
+              background-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+$badge-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.badge {
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  border-radius: 2px;
+
+  @each $color, $value in $badge-colors {
+    &__#{$color} {
+        background-color: $value;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.form {
+  &__field {
+    margin-bottom: 10px;
+  }
+
+  &__inline {
+    display: flex;
+    align-items: center;
+
+    > *:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+  }
+}

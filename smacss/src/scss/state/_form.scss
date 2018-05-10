@@ -1,0 +1,10 @@
+.form {
+  &.is-inline {
+    display: flex;
+    align-items: center;
+
+    > *:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+  }
+}

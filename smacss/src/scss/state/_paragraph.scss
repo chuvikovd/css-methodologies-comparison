@@ -1,0 +1,16 @@
+$paragraph-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.paragraph {
+  @each $color, $value in $paragraph-colors {
+    &.#{$color}-colored {
+        color: $value;
+    }
+  }
+}

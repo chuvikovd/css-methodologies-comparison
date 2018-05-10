@@ -1,0 +1,21 @@
+.field {
+  &.success-colored {
+    .input {
+      border-color: $success;
+    }
+
+    .help {
+      color: $success;
+    }
+  }
+
+  &.error-colored {
+    .input {
+      border-color: $error;
+    }
+
+    .help {
+      color: $error;
+    }
+  }
+}

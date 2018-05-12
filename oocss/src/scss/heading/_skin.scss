@@ -1,0 +1,10 @@
+.heading {
+  @for $i from 0 to 6 {
+    &-h#{6 - $i} {
+      color: $text-color;
+      font-weight: 600;
+      font-size: #{(0.875 + ($i * 0.275))}rem;
+      line-height: 1.2;
+    }
+  }
+}

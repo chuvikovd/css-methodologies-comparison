@@ -1,0 +1,14 @@
+.navbar-link-skin {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    color: rgba(black, 0.8);
+  }
+}
+
+.navbar-link-active {
+  border-color: black;
+}

@@ -1,0 +1,24 @@
+$paragraph-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.paragraph {
+  &-skin {
+    color: $text-color;
+    font-size: 1rem;
+    line-height: 1.42;
+  }
+
+  @each $color, $value in $paragraph-colors {
+    &-#{$color} {
+        color: $value;
+        font-size: 1rem;
+        line-height: 1.42;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+$alert-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+.alert {
+  @each $color, $value in $alert-colors {
+    &-#{$color} {
+        border-radius: 4px;
+        background-color: rgba(lighten($value, 30%), 0.8);
+    }
+  }
+}

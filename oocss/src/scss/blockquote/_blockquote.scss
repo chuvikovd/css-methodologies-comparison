@@ -1,0 +1,11 @@
+.blockquote {
+  text-align: left;
+
+  &.blockquote-center {
+    text-align: center;
+  }
+
+  &.blockquote-right {
+    text-align: right;
+  }
+}

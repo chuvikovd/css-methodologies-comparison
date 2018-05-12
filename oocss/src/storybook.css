@@ -1,0 +1,32 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button-container > * {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.button-group-horizontal {
+    margin-bottom: 5px;
+}
+
+.alert-container .alert {
+    margin-bottom: 20px;
+}
+
+.badge-container .badge {
+    margin: 0 5px 5px 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-container .card {
+    margin: 0 20px 20px 0;
+    width: calc((100% - 60px) / 3);
+}

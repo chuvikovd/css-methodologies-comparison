@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 10px 15px 12px;
+
+    &-small {
+        padding: 5px 10px 7px;
+    }
+
+    &-large {
+        padding: 12px 20px 14px;
+    }
+}

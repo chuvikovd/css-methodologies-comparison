@@ -1,0 +1,15 @@
+$alert-colors: (
+    default: $default,
+    primary: $primary,
+    secondary: $secondary,
+    warning: $warning,
+    error: $error,
+    success: $success,
+);
+
+@each $color, $value in $alert-colors {
+  .alert-title-#{$color} {
+    font-size: 1.4rem;
+    color: darken($value, 30%);
+  }
+}

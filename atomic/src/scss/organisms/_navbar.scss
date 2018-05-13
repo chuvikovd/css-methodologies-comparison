@@ -1,0 +1,10 @@
+.o-navbar {
+  background-color: $navbar-background;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+
+  .o-form {
+    margin-left: auto;
+  }
+}

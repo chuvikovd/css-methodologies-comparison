@@ -1,0 +1,8 @@
+.blockquote-author {
+  font-size: 0.8rem;
+  color: $text-color-light;
+
+  &:before {
+    content: '\2014 \00A0';
+  }
+}

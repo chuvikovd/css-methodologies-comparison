@@ -1,0 +1,26 @@
+.m-field {
+  .a-input {
+    display: block;
+    width: 100%;
+  }
+
+  &-success {
+    .a-input {
+      border-color: $success;
+    }
+
+    .a-field-help {
+      color: $success;
+    }
+  }
+
+  &-error {
+    .a-input {
+      border-color: $error;
+    }
+
+    .a-field-help {
+      color: $error;
+    }
+  }
+}

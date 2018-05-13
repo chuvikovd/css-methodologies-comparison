@@ -5,20 +5,20 @@ import '../storybook.css'
 
 storiesOf('Components', module)
     .add('Navbar', () =>
-        <div className='navbar'>
-            <a href="/" className='navbar__brand'>BEM</a>
+        <div className='o-navbar'>
+            <a href="/" className='a-navbar-brand'>BEM</a>
 
-            <nav className='navbar__nav'>
-                <a href="/" className='navbar__link navbar__link__active'>Home</a>
-                <a href="/" className='navbar__link'>News</a>
-                <a href="/" className='navbar__link'>Blog</a>
+            <nav className='m-navbar-nav'>
+                <a href="/" className='a-navbar-link a-navbar-link-active'>Home</a>
+                <a href="/" className='a-navbar-link'>News</a>
+                <a href="/" className='a-navbar-link'>Blog</a>
             </nav>
 
-            <form className='form form__inline navbar__form'>
-                <div className='field form__field'>
-                    <input type='text' className='input field__input' placeholder='Search' />
+            <form className='o-form o-form-inline'>
+                <div className='a-field'>
+                    <input type='text' className='a-input' placeholder='Search' />
                 </div>
-                <button className='button button__default button__small'>Search</button>
+                <button className='a-button default small'>Search</button>
             </form>
         </div>
     )

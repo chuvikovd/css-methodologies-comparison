@@ -1,0 +1,14 @@
+.o-form {
+  .m-field {
+    margin-bottom: 10px;
+  }
+
+  &-inline {
+    display: flex;
+    align-items: center;
+
+    > *:not(:last-child) {
+      margin: 0 10px 0 0;
+    }
+  }
+}

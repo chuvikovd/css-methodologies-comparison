@@ -6,6 +6,6 @@ import '../storybook.css'
 storiesOf('Components', module)
     .add('Input', () =>
         <React.Fragment>
-            <input type='text' className='input' />
+            <input type='text' className='a-input' />
         </React.Fragment>
     )

@@ -1,0 +1,23 @@
+.paragraph {
+  color: #262626;
+  font-size: 1rem;
+  line-height: 1.42;
+  margin: 0 0 0.5rem; }
+
+.default {
+  color: #757575; }
+
+.primary {
+  color: #1565C0; }
+
+.secondary {
+  color: #6A1B9A; }
+
+.warning {
+  color: #FFAB00; }
+
+.error {
+  color: #FF3D00; }
+
+.success {
+  color: #00C853; }

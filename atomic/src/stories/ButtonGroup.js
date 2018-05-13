@@ -5,7 +5,7 @@ import '../storybook.css'
 
 storiesOf('Components', module)
     .add('Button Group', () =>
-        <React.Fragment>
+        <div className='button-group-container'>
             <div className='m-button-group'>
                 <button className='a-button primary'>Button 1</button>
                 <button className='a-button secondary'>Button 2</button>
@@ -16,5 +16,5 @@ storiesOf('Components', module)
                 <button className='a-button secondary'>Button 2</button>
                 <button className='a-button error'>Button 3</button>
             </div>
-        </React.Fragment>
+        </div>
     )

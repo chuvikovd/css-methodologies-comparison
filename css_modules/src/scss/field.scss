@@ -1,0 +1,40 @@
+@import 'variables';
+
+.label {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: $text-color;
+  font-weight: 500;
+}
+
+.input {
+  display: block;
+  width: 100%;
+}
+
+.help {
+  margin: 5px 0 0 0;
+  font-size: 0.7rem;
+  color: $text-color-light;
+}
+
+.success {
+  .input {
+    border-color: $success;
+  }
+
+  .help {
+    color: $success;
+  }
+}
+
+.error {
+  .input {
+    border-color: $error;
+  }
+
+  .help {
+    color: $error;
+  }
+}

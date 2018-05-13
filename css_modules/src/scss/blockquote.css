@@ -1,0 +1,17 @@
+.text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #262626;
+  margin: 0; }
+
+.author {
+  font-size: 0.8rem;
+  color: #565656; }
+  .author:before {
+    content: '\2014 \00A0'; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }

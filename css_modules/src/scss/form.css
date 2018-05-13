@@ -1,0 +1,8 @@
+.field {
+  margin-bottom: 10px; }
+
+.inline {
+  display: flex;
+  align-items: center; }
+  .inline > *:not(:last-child) {
+    margin: 0 10px 0 0; }

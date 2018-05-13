@@ -1,0 +1,112 @@
+.card {
+  border: 1px solid #b1b1b1;
+  border-radius: 4px; }
+
+.header {
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 10px 15px; }
+
+.heading {
+  margin: 0; }
+
+.content {
+  padding: 10px 15px; }
+  .content *:last-child {
+    margin: 0; }
+
+.default.card {
+  border-color: #5c5c5c; }
+  .default.card .header {
+    background-color: rgba(194, 194, 194, 0.8);
+    border-bottom-color: #5c5c5c; }
+  .default.card .content {
+    background-color: rgba(194, 194, 194, 0.8); }
+
+.primary.card {
+  border-color: #104d92; }
+  .primary.card .header {
+    background-color: rgba(125, 179, 241, 0.8);
+    border-bottom-color: #104d92; }
+  .primary.card .content {
+    background-color: rgba(125, 179, 241, 0.8); }
+
+.secondary.card {
+  border-color: #4c136f; }
+  .secondary.card .header {
+    background-color: rgba(182, 105, 229, 0.8);
+    border-bottom-color: #4c136f; }
+  .secondary.card .content {
+    background-color: rgba(182, 105, 229, 0.8); }
+
+.warning.card {
+  border-color: #cc8900; }
+  .warning.card .header {
+    background-color: rgba(255, 221, 153, 0.8);
+    border-bottom-color: #cc8900; }
+  .warning.card .content {
+    background-color: rgba(255, 221, 153, 0.8); }
+
+.error.card {
+  border-color: #cc3100; }
+  .error.card .header {
+    background-color: rgba(255, 177, 153, 0.8);
+    border-bottom-color: #cc3100; }
+  .error.card .content {
+    background-color: rgba(255, 177, 153, 0.8); }
+
+.success.card {
+  border-color: #00953e; }
+  .success.card .header {
+    background-color: rgba(98, 255, 163, 0.8);
+    border-bottom-color: #00953e; }
+  .success.card .content {
+    background-color: rgba(98, 255, 163, 0.8); }
+
+.outlined.default.card {
+  border-color: #757575; }
+  .outlined.default.card .header {
+    background-color: transparent;
+    border-bottom-color: #757575; }
+  .outlined.default.card .content {
+    background-color: transparent; }
+
+.outlined.primary.card {
+  border-color: #1565C0; }
+  .outlined.primary.card .header {
+    background-color: transparent;
+    border-bottom-color: #1565C0; }
+  .outlined.primary.card .content {
+    background-color: transparent; }
+
+.outlined.secondary.card {
+  border-color: #6A1B9A; }
+  .outlined.secondary.card .header {
+    background-color: transparent;
+    border-bottom-color: #6A1B9A; }
+  .outlined.secondary.card .content {
+    background-color: transparent; }
+
+.outlined.warning.card {
+  border-color: #FFAB00; }
+  .outlined.warning.card .header {
+    background-color: transparent;
+    border-bottom-color: #FFAB00; }
+  .outlined.warning.card .content {
+    background-color: transparent; }
+
+.outlined.error.card {
+  border-color: #FF3D00; }
+  .outlined.error.card .header {
+    background-color: transparent;
+    border-bottom-color: #FF3D00; }
+  .outlined.error.card .content {
+    background-color: transparent; }
+
+.outlined.success.card {
+  border-color: #00C853; }
+  .outlined.success.card .header {
+    background-color: transparent;
+    border-bottom-color: #00C853; }
+  .outlined.success.card .content {
+    background-color: transparent; }

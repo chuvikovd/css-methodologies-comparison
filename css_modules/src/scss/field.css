@@ -1,0 +1,27 @@
+.label {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: #262626;
+  font-weight: 500; }
+
+.input {
+  display: block;
+  width: 100%; }
+
+.help {
+  margin: 5px 0 0 0;
+  font-size: 0.7rem;
+  color: #565656; }
+
+.success .input {
+  border-color: #00C853; }
+
+.success .help {
+  color: #00C853; }
+
+.error .input {
+  border-color: #FF3D00; }
+
+.error .help {
+  color: #FF3D00; }
